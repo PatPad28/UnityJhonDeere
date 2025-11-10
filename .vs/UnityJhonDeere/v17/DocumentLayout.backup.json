@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "C:\\GitHub repos\\Multiagentes\\UnityJhonDeere\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B1746833-28B0-8D60-8A14-57294A664B40}|Assembly-CSharp.csproj|c:\\github repos\\multiagentes\\unityjhondeere\\assets\\scripts\\tractor\\wheelrotation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B1746833-28B0-8D60-8A14-57294A664B40}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\tractor\\wheelrotation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B1746833-28B0-8D60-8A14-57294A664B40}|Assembly-CSharp.csproj|c:\\github repos\\multiagentes\\unityjhondeere\\assets\\scripts\\tractor\\tractormovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B1746833-28B0-8D60-8A14-57294A664B40}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\tractor\\tractormovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -35,19 +31,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "WheelRotation.cs",
-              "DocumentMoniker": "C:\\GitHub repos\\Multiagentes\\UnityJhonDeere\\Assets\\Scripts\\Tractor\\WheelRotation.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Tractor\\WheelRotation.cs",
-              "ToolTip": "C:\\GitHub repos\\Multiagentes\\UnityJhonDeere\\Assets\\Scripts\\Tractor\\WheelRotation.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Tractor\\WheelRotation.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-10T03:20:15.621Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "TractorMovement.cs",
               "DocumentMoniker": "C:\\GitHub repos\\Multiagentes\\UnityJhonDeere\\Assets\\Scripts\\Tractor\\TractorMovement.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Tractor\\TractorMovement.cs",
@@ -60,7 +43,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Lit.shader",
               "DocumentMoniker": "C:\\GitHub repos\\Multiagentes\\UnityJhonDeere\\Library\\PackageCache\\com.unity.render-pipelines.universal@4976252adeb8\\Shaders\\Lit.shader",
               "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.render-pipelines.universal@4976252adeb8\\Shaders\\Lit.shader",
@@ -68,11 +51,12 @@
               "RelativeToolTip": "Library\\PackageCache\\com.unity.render-pipelines.universal@4976252adeb8\\Shaders\\Lit.shader",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
-              "WhenOpened": "2025-11-09T23:02:51.824Z"
+              "WhenOpened": "2025-11-09T23:02:51.824Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "DebugUI.Fields.cs",
               "DocumentMoniker": "C:\\GitHub repos\\Multiagentes\\UnityJhonDeere\\Library\\PackageCache\\com.unity.render-pipelines.core@1f4d88678591\\Runtime\\Debugging\\DebugUI.Fields.cs",
               "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.render-pipelines.core@1f4d88678591\\Runtime\\Debugging\\DebugUI.Fields.cs",
