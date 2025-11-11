@@ -15,6 +15,7 @@ public class WheelRotation : MonoBehaviour
     [Header("Configuración")]
     public float wheelRadius = 0.35f;   // Radio de las ruedas
     public float steeringAngle = 25f;   // Ángulo máximo de dirección
+    public float rotationSpeedMultiplier = 1f; // 🔧 Multiplicador de velocidad de rotación
 
     private Vector3 lastPosition;
 
@@ -29,14 +30,16 @@ public class WheelRotation : MonoBehaviour
         float distance = movement.magnitude;
 
         // Cuánto deben girar las ruedas al avanzar
-        float rotationAmount = (distance / (2 * Mathf.PI * wheelRadius)) * 360f;
+        float rotationAmount = (distance / (2 * Mathf.PI * wheelRadius)) * 360f * rotationSpeedMultiplier;
+
+        // Detecta dirección (adelante o atrás)
         float direction = Vector3.Dot(movement.normalized, transform.forward) >= 0 ? 1f : -1f;
 
         // --- Ruedas que giran al rodar ---
-        RotateWheel(wheelFL, rotationAmount * direction);
-        RotateWheel(wheelFR, rotationAmount * direction);
-        RotateWheel(wheelRL, rotationAmount * direction);
-        RotateWheel(wheelRR, rotationAmount * direction);
+        RotateWheel(wheelFL, -rotationAmount * direction);
+        RotateWheel(wheelFR, -rotationAmount * direction);
+        RotateWheel(wheelRL, -rotationAmount * direction);
+        RotateWheel(wheelRR, -rotationAmount * direction);
 
         // --- Giro lateral (dirección) ---
         float steerInput = Input.GetAxis("Horizontal");
