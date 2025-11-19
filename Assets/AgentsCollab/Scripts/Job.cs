@@ -4,7 +4,7 @@ public class Job
 {
     public string jobName;
     public Vector3 targetPosition;
-    public enum JobStatus { Available, Bidding, Assigned, Completed }
+    public enum JobStatus { Available, Bidding, Assigned, Completed, Pending }
     public JobStatus status;
     public GameObject jobMarker;
 
