@@ -1,0 +1,33 @@
+#pragma kernel CSMain
+
+struct CropInstance
+{
+    float3 pos;
+    float t;
+};
+
+StructuredBuffer<CropInstance> AllInstances;
+RWStructuredBuffer<CropInstance> ResultBuffer;
+
+uint InstanceCount;
+
+// [min - max)
+float MinT;
+float MaxT;
+
+[numthreads(256, 1, 1)]
+void CSMain(uint3 id : SV_DispatchThreadID)
+{
+    if (id.x >= InstanceCount)
+        return;
+
+    CropInstance inst = AllInstances[id.x];
+
+    // [min - max)
+    if (inst.t >= MinT && inst.t < MaxT)
+    {
+        // Append-style write
+        uint index = ResultBuffer.IncrementCounter();
+        ResultBuffer[index] = inst;
+    }
+}

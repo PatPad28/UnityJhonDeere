@@ -1,19 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\GitHub repos\\Multiagentes\\UnityJhonDeere\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{B1746833-28B0-8D60-8A14-57294A664B40}|Assembly-CSharp.csproj|C:\\GitHub repos\\Multiagentes\\UnityJhonDeere\\assets\\shaders\\instanced\\cropsvatinstanceshader.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{B1746833-28B0-8D60-8A14-57294A664B40}|Assembly-CSharp.csproj|solutionrelative:assets\\shaders\\instanced\\cropsvatinstanceshader.shader||{3B902123-F8A7-4915-9F01-361F908088D0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B1746833-28B0-8D60-8A14-57294A664B40}|Assembly-CSharp.csproj|c:\\github repos\\multiagentes\\unityjhondeere\\assets\\shaders\\instanced\\vatutils.hlsl||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{B1746833-28B0-8D60-8A14-57294A664B40}|Assembly-CSharp.csproj|solutionrelative:assets\\shaders\\instanced\\vatutils.hlsl||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\olive\\Downloads\\Wheat_2\\Wheat_vat\\Wheat-remap_info.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 1,
@@ -21,50 +9,11 @@
       "DocumentGroups": [
         {
           "DockedHeight": 461,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Wheat-remap_info.json",
-              "DocumentMoniker": "C:\\Users\\olive\\Downloads\\Wheat_2\\Wheat_vat\\Wheat-remap_info.json",
-              "RelativeDocumentMoniker": "..\\..\\..\\Users\\olive\\Downloads\\Wheat_2\\Wheat_vat\\Wheat-remap_info.json",
-              "ToolTip": "C:\\Users\\olive\\Downloads\\Wheat_2\\Wheat_vat\\Wheat-remap_info.json",
-              "RelativeToolTip": "..\\..\\..\\Users\\olive\\Downloads\\Wheat_2\\Wheat_vat\\Wheat-remap_info.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-11-17T10:28:06.384Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "VATUtils.hlsl",
-              "DocumentMoniker": "C:\\GitHub repos\\Multiagentes\\UnityJhonDeere\\Assets\\Shaders\\Instanced\\VATUtils.hlsl",
-              "RelativeDocumentMoniker": "Assets\\Shaders\\Instanced\\VATUtils.hlsl",
-              "ToolTip": "C:\\GitHub repos\\Multiagentes\\UnityJhonDeere\\Assets\\Shaders\\Instanced\\VATUtils.hlsl",
-              "RelativeToolTip": "Assets\\Shaders\\Instanced\\VATUtils.hlsl",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
-              "WhenOpened": "2025-11-17T08:38:54.465Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CropsVATInstanceShader.shader",
-              "DocumentMoniker": "C:\\GitHub repos\\Multiagentes\\UnityJhonDeere\\Assets\\Shaders\\Instanced\\CropsVATInstanceShader.shader",
-              "RelativeDocumentMoniker": "Assets\\Shaders\\Instanced\\CropsVATInstanceShader.shader",
-              "ToolTip": "C:\\GitHub repos\\Multiagentes\\UnityJhonDeere\\Assets\\Shaders\\Instanced\\CropsVATInstanceShader.shader",
-              "RelativeToolTip": "Assets\\Shaders\\Instanced\\CropsVATInstanceShader.shader",
-              "ViewState": "AgIAAOIAAAAAAAAAAAAkwA0BAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
-              "WhenOpened": "2025-11-17T08:36:22.509Z",
-              "EditorCaption": ""
             }
           ]
         },

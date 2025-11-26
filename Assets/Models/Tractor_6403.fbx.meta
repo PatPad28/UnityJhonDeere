@@ -3,7 +3,27 @@ guid: 2e1108d6d79b1fd4bacbca536aa8b2d3
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BodyShell
+    second: {fileID: 2100000, guid: de901b11c55bc0d499821564b9bcbd40, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Headlight
+    second: {fileID: 2100000, guid: 58ec46f743e77ba4e829af5f93433347, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Plastic
+    second: {fileID: 2100000, guid: 92e0b49a850e26c4cb96d7bdaa0d65a9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tire
+    second: {fileID: 2100000, guid: 2ee0ff2850298c7479c42c1a227866d2, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

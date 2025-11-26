@@ -1,7 +1,7 @@
-using System.Runtime.InteropServices;
+using System;
 using System.Collections.Generic;
+using System.Runtime.InteropServices;
 using UnityEngine;
-using System.ComponentModel;
 
 /// <summary>
 /// Responsible for having the list of crops to render.
@@ -9,21 +9,34 @@ using System.ComponentModel;
 /// </summary>
 public class WheatCropsRenderer : MonoBehaviour
 {
+    [System.Serializable]
+    public class MeshGrowthPoint
+    {
+        [Range(0f, 1f)]
+        public float Value;
+        public Mesh Mesh;
+        public int SubMeshIndex;
+    }
+
     [SerializeField] List<CropData> _crops = new List<CropData>();
     public int CropCount { get { return _crops.Count; } }
 
-    [Header("Mesh Data")]
-    public Mesh CropsMesh;
-    public Material CropsMaterial;
-    public int SubMeshIndex = 0;
-
-    //private Bounds _bounds = new Bounds();
     private Bounds _bounds = new Bounds(Vector3.zero, Vector3.one* 10000f);
 
+    [Header("Meshes Data")]
+    public Material CropsMaterial;
 
-    private ComputeBuffer _cropsBuffer;
-    private ComputeBuffer _argsBuffer;
+    public MeshGrowthPoint[] MeshPoints;
 
+    // Buffers
+    private class BufferData
+    {
+        public ComputeBuffer InstancesBuffer;
+        public ComputeBuffer ArgsBuffer;
+    }
+    private BufferData[] _bufferDatas;
+
+    private ComputeBuffer _allInstances;
 
     private void OnEnable()
     {
@@ -39,28 +52,40 @@ public class WheatCropsRenderer : MonoBehaviour
 
     void Awake()
     {
-        UpdateBuffers();
+        CreateBufferDatas();
     }
 
 
     void Update()
     {
-        if (_crops == null || _crops.Count == 0)
-            return;
+        if (_crops.Count <= 0) return;
+
         UpdateBuffers();
-        Graphics.DrawMeshInstancedIndirect(CropsMesh, SubMeshIndex, CropsMaterial, _bounds, _argsBuffer);
+
+        var mpb = new MaterialPropertyBlock();
+        for (int i = 0; i < MeshPoints.Length; i++)
+        {
+            var bd = _bufferDatas[i];
+            if (bd == null) continue;
+            var mesh = MeshPoints[i].Mesh;
+            if (mesh == null) continue;
+
+            mpb.Clear();
+            mpb.SetBuffer("positionBuffer", bd.InstancesBuffer);
+
+            Graphics.DrawMeshInstancedIndirect(mesh, MeshPoints[i].SubMeshIndex, CropsMaterial, _bounds, bd.ArgsBuffer, 0, mpb);
+        }
+
+    }
+
+    private void FixedUpdate()
+    {
     }
 
     void UpdateBuffers()
     {
-        if (_crops == null || _crops.Count == 0)
-        {
-            _cropsBuffer?.Release();
-            _argsBuffer?.Release();
-            _cropsBuffer = null;
-            _argsBuffer = null;
-            return;
-        }
+        if (_allInstances == null || _allInstances.count != _crops.Count)
+            CreateBufferDatas();
 
         int stride = Marshal.SizeOf(typeof(CropDataStruct));
 
@@ -69,37 +94,97 @@ public class WheatCropsRenderer : MonoBehaviour
         {
             cropDataStruct[i] = new CropDataStruct { pos = _crops[i].pos, t = _crops[i].t };
         }
-        _cropsBuffer?.Release();
-        _cropsBuffer = new ComputeBuffer(_crops.Count, stride);
-        _cropsBuffer.SetData(cropDataStruct);
 
-        SubMeshIndex = Mathf.Clamp(SubMeshIndex, 0, CropsMesh.subMeshCount - 1);
+        _allInstances?.Release();
+        _allInstances = new ComputeBuffer(Mathf.Max(1, _crops.Count), stride);
+        _allInstances.SetData(cropDataStruct);
 
-        uint[] args = new uint[5] { 0, 0, 0, 0, 0 };
-        if (CropsMesh != null)
+        for (int i = 0; i < MeshPoints.Length; i++)
         {
-            args[0] = (uint)CropsMesh.GetIndexCount(SubMeshIndex);
-            args[1] = (uint)_crops.Count;
-            args[2] = (uint)CropsMesh.GetIndexStart(SubMeshIndex);
-            args[3] = (uint)CropsMesh.GetBaseVertex(SubMeshIndex);
+            float min = i == 0 ? 0 : MeshPoints[i-1].Value;
+            float max = i == MeshPoints.Length -1 ? 1.01f : MeshPoints[i].Value;
+            FilterGroup(_allInstances, _bufferDatas[i].InstancesBuffer, cropDataStruct.Length, min, max);
+
+
+            uint[] args = new uint[5] { 0, 0, 0, 0, 0 };
+            if (MeshPoints[i].Mesh != null)
+            {
+                args[0] = (uint)MeshPoints[i].Mesh.GetIndexCount(MeshPoints[i].SubMeshIndex);
+                args[1] = 0;
+                args[2] = (uint)MeshPoints[i].Mesh.GetIndexStart(MeshPoints[i].SubMeshIndex);
+                args[3] = (uint)MeshPoints[i].Mesh.GetBaseVertex(MeshPoints[i].SubMeshIndex);
+            }
+
+            _bufferDatas[i].ArgsBuffer.SetData(args);
+
+            ComputeBuffer.CopyCount(_bufferDatas[i].InstancesBuffer, _bufferDatas[i].ArgsBuffer, sizeof(uint));
         }
-
-        _argsBuffer?.Release();
-        _argsBuffer = new ComputeBuffer(1, args.Length * sizeof(uint), ComputeBufferType.IndirectArguments);
-        _argsBuffer.SetData(args);
-
-        CropsMaterial.SetBuffer("positionBuffer", _cropsBuffer);
     }
 
+    [SerializeField] ComputeShader _compute;
+
+    void FilterGroup(ComputeBuffer allInstances, ComputeBuffer groupBuffer, int count, float minT, float maxT)
+    {
+        int kernel = _compute.FindKernel("CSMain");
+
+        _compute.SetBuffer(kernel, "AllInstances", allInstances);
+        _compute.SetBuffer(kernel, "ResultBuffer", groupBuffer);
+
+        _compute.SetInt("InstanceCount", count);
+        _compute.SetFloat("MinT", minT);
+        _compute.SetFloat("MaxT", maxT);
+
+        // IMPORTANTE: resetear contador
+        groupBuffer.SetCounterValue(0);
+
+        int groups = Mathf.CeilToInt(count / 256f);
+        _compute.Dispatch(kernel, groups, 1, 1);
+    }
+
+    /// <summary>
+    /// Creates empty Buffers
+    /// </summary>
+    void CreateBufferDatas()
+    {
+        ClearBuffers();
+
+        _bufferDatas = new BufferData[MeshPoints.Length];
+        for (int i = 0; i < MeshPoints.Length; i++)
+        {
+            int stride = Marshal.SizeOf(typeof(CropDataStruct));
+
+            _bufferDatas[i] = new BufferData();
+            _bufferDatas[i].InstancesBuffer = new ComputeBuffer(_crops.Count > 0 ? _crops.Count : 1, stride, ComputeBufferType.Append);
+            _bufferDatas[i].InstancesBuffer.SetCounterValue(0);
+
+            _bufferDatas[i].ArgsBuffer = new ComputeBuffer(1, 5 * sizeof(uint), ComputeBufferType.IndirectArguments);
+        }
+    }
+
+    void ClearBuffers()
+    {
+        if (_bufferDatas != null)
+        {
+            for (int i = 0; i < _bufferDatas.Length; i++)
+            {
+                _bufferDatas[i].InstancesBuffer?.Release();
+                _bufferDatas[i].ArgsBuffer?.Release();
+                _bufferDatas[i].InstancesBuffer = null;
+                _bufferDatas[i].ArgsBuffer = null;
+            }
+        }
+        _bufferDatas = null;
+
+        _allInstances?.Release();
+        _allInstances = null;
+    }
 
     public void AddCrop(CropData crop)
     {
         _crops.Add(crop);
 
-        Bounds meshBounds = CropsMesh != null ? CropsMesh.bounds : new Bounds(Vector3.zero, Vector3.one);
-
-        Bounds cropBounds = new Bounds(crop.pos + meshBounds.center, meshBounds.size);
-
+        //Bounds meshBounds = CropsMesh != null ? CropsMesh.bounds : new Bounds(Vector3.zero, Vector3.one);
+        //Bounds cropBounds = new Bounds(crop.pos + meshBounds.center, meshBounds.size);
 
         //if (_crops.Count == 1)
         //{
@@ -119,14 +204,16 @@ public class WheatCropsRenderer : MonoBehaviour
     public void RemoveCrop(CropData crop)
     {
         _crops.Remove(crop);
+    }
 
-        UpdateBuffers();
+    private void OnDestroy()
+    {
+        ClearBuffers();
     }
 
     private void OnDrawGizmosSelected()
     {
         Gizmos.color = Color.yellow;
-
         Gizmos.DrawWireCube(_bounds.center, _bounds.size);
     }
 }
