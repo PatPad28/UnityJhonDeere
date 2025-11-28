@@ -16,7 +16,7 @@ public class SocketTest : MonoBehaviour
     {
         websocket = new WebSocket("ws://127.0.0.1:8000/ws");
 
-        websocket.OnOpen += () => Debug.Log("¡Conexión abierta con Python!");
+        websocket.OnOpen += () => Debug.Log("Conexión abierta con Python");
         websocket.OnError += (e) => Debug.Log("Error: " + e);
         websocket.OnClose += (e) => Debug.Log("Conexión cerrada");
 
