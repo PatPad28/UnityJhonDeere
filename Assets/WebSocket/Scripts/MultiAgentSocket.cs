@@ -3,7 +3,7 @@ using NativeWebSocket;
 
 public class MultiAgentSocket : MonoBehaviour
 {
-    public GameObject[] agents; // ← necesitas 2 objetos en escena
+    public GameObject[] agents;
     WebSocket ws;
 
     [System.Serializable]
