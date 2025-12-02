@@ -10,7 +10,7 @@ public class FarmClient : MonoBehaviour
 
     [Header("Configuración")]
     public string serverUrl = "ws://localhost:8000/ws";
-    public float cellSize = 1.0f; // Tamaño de cada celda en metros
+    public float cellSize = 3.0f;
 
     [Header("Prefabs")]
     public GameObject planterPrefab;
@@ -19,6 +19,9 @@ public class FarmClient : MonoBehaviour
     public GameObject plantPrefab;
     public GameObject waterPrefab;
     public GameObject obstaclePrefab;
+
+    private float nextLogTime = 0f;
+    public float logInterval = 5.0f;
 
     public class AgentData
     {
@@ -68,6 +71,13 @@ public class FarmClient : MonoBehaviour
         websocket.OnMessage += (bytes) =>
         {
             string json = System.Text.Encoding.UTF8.GetString(bytes);
+
+            if (Time.time >= nextLogTime)
+            {
+                Debug.Log($"=== JSON RECIBIDO (Tiempo: {Time.time:F1}) ===\n{json}");
+                nextLogTime = Time.time + logInterval;
+            }
+
             try {
                 var state = JsonConvert.DeserializeObject<WorldState>(json);
                 if (state != null) ProcessState(state);

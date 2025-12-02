@@ -407,8 +407,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::CropsInstancer
   Bounds:
     m_Center: {x: 0, y: 0, z: 0}
-    m_Extent: {x: 10, y: 0.1, z: 10}
-  DimensionDensity: 100
+    m_Extent: {x: 1, y: 0.1, z: 1}
+  DimensionDensity: 10
   CropsMesh: {fileID: 4987537638257184149, guid: 84d078db0e9c5d242b406693bd6a97c3, type: 3}
   CropsMaterial: {fileID: 2100000, guid: 5a0f11b87bdcaa84abfaf6add4552f1e, type: 2}
   SubMeshIndex: 0

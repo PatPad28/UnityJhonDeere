@@ -1,16 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\GitHub repos\\Multiagentes\\UnityJhonDeere\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{B1746833-28B0-8D60-8A14-57294A664B40}|Assembly-CSharp.csproj|c:\\github repos\\multiagentes\\unityjhondeere\\assets\\scripts\\crops\\wheatcropsrenderer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B1746833-28B0-8D60-8A14-57294A664B40}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\crops\\wheatcropsrenderer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B1746833-28B0-8D60-8A14-57294A664B40}|Assembly-CSharp.csproj|c:\\github repos\\multiagentes\\unityjhondeere\\assets\\resources\\cropsgrouping.compute||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{B1746833-28B0-8D60-8A14-57294A664B40}|Assembly-CSharp.csproj|solutionrelative:assets\\resources\\cropsgrouping.compute||{8B382828-6202-11D1-8870-0000F87579D2}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 1,
@@ -18,37 +9,11 @@
       "DocumentGroups": [
         {
           "DockedHeight": 461,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CropsGrouping.compute",
-              "DocumentMoniker": "C:\\GitHub repos\\Multiagentes\\UnityJhonDeere\\Assets\\Resources\\CropsGrouping.compute",
-              "RelativeDocumentMoniker": "Assets\\Resources\\CropsGrouping.compute",
-              "ToolTip": "C:\\GitHub repos\\Multiagentes\\UnityJhonDeere\\Assets\\Resources\\CropsGrouping.compute",
-              "RelativeToolTip": "Assets\\Resources\\CropsGrouping.compute",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAAB0AAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
-              "WhenOpened": "2025-11-19T01:57:37.073Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "WheatCropsRenderer.cs",
-              "DocumentMoniker": "C:\\GitHub repos\\Multiagentes\\UnityJhonDeere\\Assets\\Scripts\\Crops\\WheatCropsRenderer.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Crops\\WheatCropsRenderer.cs",
-              "ToolTip": "C:\\GitHub repos\\Multiagentes\\UnityJhonDeere\\Assets\\Scripts\\Crops\\WheatCropsRenderer.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Crops\\WheatCropsRenderer.cs",
-              "ViewState": "AgIAAHkAAAAAAAAAAAAYwJwAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-18T23:44:48.004Z",
-              "EditorCaption": ""
             }
           ]
         },
