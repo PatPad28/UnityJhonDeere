@@ -118,7 +118,7 @@ public class CropBunchInstancer : MonoBehaviour
         _argsBuffer = null;
     }
 
-    void OnDrawGizmos()
+    void OnDrawGizmosSelected()
     {
         Gizmos.color = Color.yellow;
         Gizmos.DrawWireCube(Bounds.center, Bounds.size);

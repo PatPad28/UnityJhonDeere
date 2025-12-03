@@ -167,24 +167,8 @@ public class FarmClient : MonoBehaviour
                 int type = gridData[r][c];
 
                 GameObject currentObj = visualGrid[r, c];
-                
-                if (type == 2)
-                {
-                    if (currentObj == null)
-                    {
-                        Vector3 pos = new Vector3(c * cellSize, 0, r * cellSize);
-                        visualGrid[r, c] = Instantiate(plantPrefab, pos, Quaternion.identity);
-                    }
-                }
-                else if (type == 5)
-                {
-                     if (currentObj == null)
-                     {
-                        Vector3 pos = new Vector3(c * cellSize, 0, r * cellSize);
-                        visualGrid[r, c] = Instantiate(waterPrefab, pos, Quaternion.identity);
-                     }
-                }
-                else
+
+                if (type  == 0)
                 {
                     if (currentObj != null)
                     {
@@ -192,8 +176,17 @@ public class FarmClient : MonoBehaviour
                         visualGrid[r, c] = null;
                     }
                 }
-
-
+                else if (type  ==  2)
+                {
+                    if (currentObj == null)
+                    {
+                        Vector3 pos = new Vector3(c * cellSize, 0, r * cellSize);
+                        GameObject go = Instantiate(CropInstancerObject, Vector3.zero, Quaternion.identity);
+                        CropBunchInstancer instancer = go.GetComponent<CropBunchInstancer>();
+                        instancer.Init(new Vector2(pos.x, pos.z), cellSize, cellSize);
+                        visualGrid[r, c] = go;
+                    }
+                }
             }
         }
     }
