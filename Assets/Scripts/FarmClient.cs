@@ -20,8 +20,12 @@ public class FarmClient : MonoBehaviour
     public GameObject waterPrefab;
     public GameObject obstaclePrefab;
 
+    public GameObject CropInstancerObject;
+
     private float nextLogTime = 0f;
     public float logInterval = 5.0f;
+
+    private Dictionary<(int, int), GameObject> visualCropGrid = new Dictionary<(int, int), GameObject>();
 
     public class AgentData
     {
@@ -106,7 +110,6 @@ public class FarmClient : MonoBehaviour
         {
             UpdateGrid(state.grid);
         }
-
         // 3. (Opcional) Actualizar UI con state.meta
         // Debug.Log($"Fase: {state.meta.cycle_phase} - Step: {state.meta.step}");
     }
@@ -162,16 +165,7 @@ public class FarmClient : MonoBehaviour
             for (int c = 0; c < cols; c++)
             {
                 int type = gridData[r][c];
-                
-                // Verificamos si necesitamos cambiar lo que hay en esta celda
-                // Aquí simplificamos: Si el tipo visual actual no coincide con el dato, reconstruimos
-                // Para optimizar, se  pordría chequear tags o componentes.
-                
-                // Lógica básica:
-                // 2 = CROP (Planta)
-                // 5 = WATER (Riego)
-                // 0, 3, 4, etc = Nada visual (o camino plano)
-                
+
                 GameObject currentObj = visualGrid[r, c];
                 
                 if (type == 2)
@@ -184,7 +178,7 @@ public class FarmClient : MonoBehaviour
                 }
                 else if (type == 5)
                 {
-                     if (currentObj == null) // O si el objeto actual es una planta, la reemplazamos? Depende de tu lógica
+                     if (currentObj == null)
                      {
                         Vector3 pos = new Vector3(c * cellSize, 0, r * cellSize);
                         visualGrid[r, c] = Instantiate(waterPrefab, pos, Quaternion.identity);
@@ -198,6 +192,8 @@ public class FarmClient : MonoBehaviour
                         visualGrid[r, c] = null;
                     }
                 }
+
+
             }
         }
     }

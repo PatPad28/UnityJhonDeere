@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\dylan_tmut0bm\\Documents\\tec\\Multi\\Proyecto\\UnityJhonDeere\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B1746833-28B0-8D60-8A14-57294A664B40}|Assembly-CSharp.csproj|c:\\users\\dylan_tmut0bm\\documents\\tec\\multi\\proyecto\\unityjhondeere\\assets\\scripts\\cropbunchinstancer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1746833-28B0-8D60-8A14-57294A664B40}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cropbunchinstancer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B1746833-28B0-8D60-8A14-57294A664B40}|Assembly-CSharp.csproj|c:\\users\\dylan_tmut0bm\\documents\\tec\\multi\\proyecto\\unityjhondeere\\assets\\scripts\\crops\\cropsinstancer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B1746833-28B0-8D60-8A14-57294A664B40}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\crops\\cropsinstancer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -35,6 +39,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "CropBunchInstancer.cs",
+              "DocumentMoniker": "C:\\Users\\dylan_tmut0bm\\Documents\\tec\\Multi\\Proyecto\\UnityJhonDeere\\Assets\\Scripts\\CropBunchInstancer.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CropBunchInstancer.cs",
+              "ToolTip": "C:\\Users\\dylan_tmut0bm\\Documents\\tec\\Multi\\Proyecto\\UnityJhonDeere\\Assets\\Scripts\\CropBunchInstancer.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CropBunchInstancer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T06:09:57.723Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "CropsInstancer.cs",
               "DocumentMoniker": "C:\\Users\\dylan_tmut0bm\\Documents\\tec\\Multi\\Proyecto\\UnityJhonDeere\\Assets\\Scripts\\Crops\\CropsInstancer.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Crops\\CropsInstancer.cs",
