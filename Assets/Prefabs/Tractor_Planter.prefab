@@ -1,0 +1,181 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2510913301804119883
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5535207099550382832}
+  m_Layer: 0
+  m_Name: Tractor_Planter
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5535207099550382832
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2510913301804119883}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 7670492797950309995}
+  - {fileID: 9169943716246185661}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &7924551877066772864
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5535207099550382832}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 2e1108d6d79b1fd4bacbca536aa8b2d3, type: 3}
+      propertyPath: m_LocalScale.z
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2e1108d6d79b1fd4bacbca536aa8b2d3, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2e1108d6d79b1fd4bacbca536aa8b2d3, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2e1108d6d79b1fd4bacbca536aa8b2d3, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2e1108d6d79b1fd4bacbca536aa8b2d3, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2e1108d6d79b1fd4bacbca536aa8b2d3, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2e1108d6d79b1fd4bacbca536aa8b2d3, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2e1108d6d79b1fd4bacbca536aa8b2d3, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2e1108d6d79b1fd4bacbca536aa8b2d3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2e1108d6d79b1fd4bacbca536aa8b2d3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2e1108d6d79b1fd4bacbca536aa8b2d3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 2e1108d6d79b1fd4bacbca536aa8b2d3, type: 3}
+      propertyPath: m_Name
+      value: Tractor_6403
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2e1108d6d79b1fd4bacbca536aa8b2d3, type: 3}
+--- !u!4 &7670492797950309995 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 2e1108d6d79b1fd4bacbca536aa8b2d3, type: 3}
+  m_PrefabInstance: {fileID: 7924551877066772864}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8703371502043562326
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5535207099550382832}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 0c91e37e959bde44bae29a6cfb7716ce, type: 3}
+      propertyPath: m_LocalScale.z
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0c91e37e959bde44bae29a6cfb7716ce, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0c91e37e959bde44bae29a6cfb7716ce, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.82
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0c91e37e959bde44bae29a6cfb7716ce, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -4.076
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0c91e37e959bde44bae29a6cfb7716ce, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0c91e37e959bde44bae29a6cfb7716ce, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0c91e37e959bde44bae29a6cfb7716ce, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0c91e37e959bde44bae29a6cfb7716ce, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0c91e37e959bde44bae29a6cfb7716ce, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0c91e37e959bde44bae29a6cfb7716ce, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0c91e37e959bde44bae29a6cfb7716ce, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7696058595397655385, guid: 0c91e37e959bde44bae29a6cfb7716ce, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 3702c4486e4073340bc648a106736039, type: 2}
+    - target: {fileID: -7032907717049544002, guid: 0c91e37e959bde44bae29a6cfb7716ce, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 3702c4486e4073340bc648a106736039, type: 2}
+    - target: {fileID: 919132149155446097, guid: 0c91e37e959bde44bae29a6cfb7716ce, type: 3}
+      propertyPath: m_Name
+      value: Tractor_6404_Planter_Attachment
+      objectReference: {fileID: 0}
+    - target: {fileID: 2982408803557973007, guid: 0c91e37e959bde44bae29a6cfb7716ce, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 3702c4486e4073340bc648a106736039, type: 2}
+    m_RemovedComponents: []
+    m_RemovedGameObjects:
+    - {fileID: 7869873546869171050, guid: 0c91e37e959bde44bae29a6cfb7716ce, type: 3}
+    - {fileID: 8821623529969584324, guid: 0c91e37e959bde44bae29a6cfb7716ce, type: 3}
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0c91e37e959bde44bae29a6cfb7716ce, type: 3}
+--- !u!4 &9169943716246185661 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 0c91e37e959bde44bae29a6cfb7716ce, type: 3}
+  m_PrefabInstance: {fileID: 8703371502043562326}
+  m_PrefabAsset: {fileID: 0}

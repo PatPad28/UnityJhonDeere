@@ -159,15 +159,6 @@ MonoBehaviour:
   CropInstancerObject: {fileID: 2622338783777311694, guid: 650e8902ec3470b4fa6ac27454a37b8d, type: 3}
   grassPrefab: {fileID: 6312743674424390229, guid: b73d64ea7eb0b2c478740933e2e717c4, type: 3}
   dirtPrefab: {fileID: 3743823696612064893, guid: 9c50404732d462747bda6f7504ed33bd, type: 3}
-  rockPrefabs:
-  - {fileID: 7237892751812457755, guid: 0c34d05385691c9459ae8715c3878eee, type: 3}
-  - {fileID: 5479982855517076994, guid: 1a0f1416454aa7740a179355410b794e, type: 3}
-  - {fileID: 3008497465808090928, guid: e7cafda2600985b4daf4ebed7db3a2b9, type: 3}
-  - {fileID: 8705174248896160631, guid: e411221af5810b345bc6b8ae9933baf4, type: 3}
-  - {fileID: 1602052783475961073, guid: 7638605aeb67d3549a5d674b06cb8d23, type: 3}
-  - {fileID: 1737749713966595481, guid: 4bbf4a433115c154881d731f921698ba, type: 3}
-  - {fileID: 742636000971871855, guid: 20f3091e319bf42408d45b9df60e9c78, type: 3}
-  - {fileID: 8044523367418793148, guid: 62befe0913404d44fa5bf964d534beec, type: 3}
   logInterval: 10
 --- !u!4 &1133229443
 Transform:

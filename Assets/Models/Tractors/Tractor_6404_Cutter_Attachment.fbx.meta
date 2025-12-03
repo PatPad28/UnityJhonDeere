@@ -3,7 +3,12 @@ guid: 1396f72b8b7f7b24eb018ef8da5ecf46
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CutterShell
+    second: {fileID: 2100000, guid: 3702c4486e4073340bc648a106736039, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
