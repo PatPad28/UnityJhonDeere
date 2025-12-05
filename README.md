@@ -215,7 +215,7 @@ Esto instalará todas las librerías necesarias:
 #### Paso 1: Navegar al Frontend
 
 ```bash
-cd ..\frontend
+cd ..\frontend\src
 ```
 
 #### Paso 2: Instalar Dependencias de Node.js
