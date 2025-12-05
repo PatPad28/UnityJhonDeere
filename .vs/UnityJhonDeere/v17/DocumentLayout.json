@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\GitHub repos\\Multiagentes\\UnityJhonDeere\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B1746833-28B0-8D60-8A14-57294A664B40}|Assembly-CSharp.csproj|c:\\github repos\\multiagentes\\unityjhondeere\\assets\\websocket\\scripts\\sockettest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B1746833-28B0-8D60-8A14-57294A664B40}|Assembly-CSharp.csproj|solutionrelative:assets\\websocket\\scripts\\sockettest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B1746833-28B0-8D60-8A14-57294A664B40}|Assembly-CSharp.csproj|c:\\github repos\\multiagentes\\unityjhondeere\\assets\\scripts\\farmclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1746833-28B0-8D60-8A14-57294A664B40}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\farmclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -13,7 +13,7 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedHeight": 461,
+          "DockedHeight": 552,
           "SelectedChildIndex": 1,
           "Children": [
             {
@@ -23,14 +23,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "SocketTest.cs",
-              "DocumentMoniker": "C:\\GitHub repos\\Multiagentes\\UnityJhonDeere\\Assets\\WebSocket\\Scripts\\SocketTest.cs",
-              "RelativeDocumentMoniker": "Assets\\WebSocket\\Scripts\\SocketTest.cs",
-              "ToolTip": "C:\\GitHub repos\\Multiagentes\\UnityJhonDeere\\Assets\\WebSocket\\Scripts\\SocketTest.cs",
-              "RelativeToolTip": "Assets\\WebSocket\\Scripts\\SocketTest.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAgwAwAAAAXAAAAAAAAAA==",
+              "Title": "FarmClient.cs",
+              "DocumentMoniker": "C:\\GitHub repos\\Multiagentes\\UnityJhonDeere\\Assets\\Scripts\\FarmClient.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\FarmClient.cs",
+              "ToolTip": "C:\\GitHub repos\\Multiagentes\\UnityJhonDeere\\Assets\\Scripts\\FarmClient.cs",
+              "RelativeToolTip": "Assets\\Scripts\\FarmClient.cs",
+              "ViewState": "AgIAAPkAAAAAAAAAAAAkwAgAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-30T10:32:13.205Z",
+              "WhenOpened": "2025-12-03T09:06:41.217Z",
               "EditorCaption": ""
             }
           ]
@@ -60,7 +60,7 @@
           ]
         },
         {
-          "DockedHeight": 136,
+          "DockedHeight": 45,
           "SelectedChildIndex": -1,
           "Children": [
             {
