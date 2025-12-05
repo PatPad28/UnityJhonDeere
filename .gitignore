@@ -24,7 +24,6 @@
 __pycache__/
 /Server/frontend/node_modules
 /Server/frontend/package-lock.json
-/Server/frontend/package.json
 /Server/frontend/vite.config.js
 *.slnx
 *.sln
