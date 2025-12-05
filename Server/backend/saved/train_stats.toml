@@ -1,0 +1,4009 @@
+[metadata]
+total_episodes = 500
+current_episode = 445
+training_duration_seconds = 184.917822
+
+[episodes.episode_1]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0179)"
+final_phase = "planting"
+
+[episodes.episode_2]
+reward = 86912.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0176)"
+final_phase = "planting"
+
+[episodes.episode_3]
+reward = 86962.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0173)"
+final_phase = "planting"
+
+[episodes.episode_4]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0172)"
+final_phase = "planting"
+
+[episodes.episode_5]
+reward = 87020.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0172)"
+final_phase = "planting"
+
+[episodes.episode_6]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0173)"
+final_phase = "planting"
+
+[episodes.episode_7]
+reward = 86926.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0171)"
+final_phase = "planting"
+
+[episodes.episode_8]
+reward = 86896.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0171)"
+final_phase = "planting"
+
+[episodes.episode_9]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0172)"
+final_phase = "planting"
+
+[episodes.episode_10]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0171)"
+final_phase = "planting"
+
+[episodes.episode_11]
+reward = 87020.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0171)"
+final_phase = "planting"
+
+[episodes.episode_12]
+reward = 86966.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0171)"
+final_phase = "planting"
+
+[episodes.episode_13]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0171)"
+final_phase = "planting"
+
+[episodes.episode_14]
+reward = 87012.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0171)"
+final_phase = "planting"
+
+[episodes.episode_15]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.017)"
+final_phase = "planting"
+
+[episodes.episode_16]
+reward = 86970.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.017)"
+final_phase = "planting"
+
+[episodes.episode_17]
+reward = 87020.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.017)"
+final_phase = "planting"
+
+[episodes.episode_18]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.017)"
+final_phase = "planting"
+
+[episodes.episode_19]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.017)"
+final_phase = "planting"
+
+[episodes.episode_20]
+reward = 87020.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0169)"
+final_phase = "planting"
+
+[episodes.episode_21]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0169)"
+final_phase = "planting"
+
+[episodes.episode_22]
+reward = 86986.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0168)"
+final_phase = "planting"
+
+[episodes.episode_23]
+reward = 87020.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0168)"
+final_phase = "planting"
+
+[episodes.episode_24]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0168)"
+final_phase = "planting"
+
+[episodes.episode_25]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0169)"
+final_phase = "planting"
+
+[episodes.episode_26]
+reward = 87016.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0169)"
+final_phase = "planting"
+
+[episodes.episode_27]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0169)"
+final_phase = "planting"
+
+[episodes.episode_28]
+reward = 86910.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0169)"
+final_phase = "planting"
+
+[episodes.episode_29]
+reward = 86980.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0169)"
+final_phase = "planting"
+
+[episodes.episode_30]
+reward = 86930.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0169)"
+final_phase = "planting"
+
+[episodes.episode_31]
+reward = 87165.0
+planted = 5
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0168)"
+final_phase = "planting"
+
+[episodes.episode_32]
+reward = 87475.0
+planted = 10
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0169)"
+final_phase = "planting"
+
+[episodes.episode_33]
+reward = 86650.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0169)"
+final_phase = "planting"
+
+[episodes.episode_34]
+reward = 87320.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0168)"
+final_phase = "planting"
+
+[episodes.episode_35]
+reward = 86864.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0168)"
+final_phase = "planting"
+
+[episodes.episode_36]
+reward = 86818.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0168)"
+final_phase = "planting"
+
+[episodes.episode_37]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0168)"
+final_phase = "planting"
+
+[episodes.episode_38]
+reward = 87020.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0168)"
+final_phase = "planting"
+
+[episodes.episode_39]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0168)"
+final_phase = "planting"
+
+[episodes.episode_40]
+reward = 86834.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0168)"
+final_phase = "planting"
+
+[episodes.episode_41]
+reward = 87020.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0168)"
+final_phase = "planting"
+
+[episodes.episode_42]
+reward = 86886.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0168)"
+final_phase = "planting"
+
+[episodes.episode_43]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0168)"
+final_phase = "planting"
+
+[episodes.episode_44]
+reward = 86804.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0168)"
+final_phase = "planting"
+
+[episodes.episode_45]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0168)"
+final_phase = "planting"
+
+[episodes.episode_46]
+reward = 86842.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0168)"
+final_phase = "planting"
+
+[episodes.episode_47]
+reward = 87020.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0168)"
+final_phase = "planting"
+
+[episodes.episode_48]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0168)"
+final_phase = "planting"
+
+[episodes.episode_49]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0168)"
+final_phase = "planting"
+
+[episodes.episode_50]
+reward = 86976.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0168)"
+final_phase = "planting"
+
+[episodes.episode_51]
+reward = 86986.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0168)"
+final_phase = "planting"
+
+[episodes.episode_52]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0168)"
+final_phase = "planting"
+
+[episodes.episode_53]
+reward = 87020.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0168)"
+final_phase = "planting"
+
+[episodes.episode_54]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_55]
+reward = 86966.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_56]
+reward = 86968.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_57]
+reward = 86930.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_58]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_59]
+reward = 87020.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_60]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_61]
+reward = 87110.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_62]
+reward = 86788.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_63]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_64]
+reward = 87025.0
+planted = 1
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_65]
+reward = 86952.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_66]
+reward = 89780.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_67]
+reward = 86826.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_68]
+reward = 87000.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_69]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_70]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_71]
+reward = 86972.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_72]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_73]
+reward = 88945.0
+planted = 10
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_74]
+reward = 87020.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_75]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_76]
+reward = 86902.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_77]
+reward = 87020.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_78]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_79]
+reward = 86902.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_80]
+reward = 87020.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_81]
+reward = 86962.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_82]
+reward = 87270.0
+planted = 8
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_83]
+reward = 87755.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_84]
+reward = 86942.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_85]
+reward = 86954.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_86]
+reward = 87004.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_87]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_88]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_89]
+reward = 87590.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_90]
+reward = 87320.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_91]
+reward = 86954.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_92]
+reward = 87004.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_93]
+reward = 86974.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_94]
+reward = 86926.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_95]
+reward = 86880.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_96]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_97]
+reward = 86974.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_98]
+reward = 86980.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_99]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_100]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_101]
+reward = 87020.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_102]
+reward = 86730.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_103]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_104]
+reward = 87020.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_105]
+reward = 86922.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_106]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_107]
+reward = 87090.0
+planted = 2
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_108]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_109]
+reward = 89090.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0166)"
+final_phase = "planting"
+
+[episodes.episode_110]
+reward = 86972.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0166)"
+final_phase = "planting"
+
+[episodes.episode_111]
+reward = 86870.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0166)"
+final_phase = "planting"
+
+[episodes.episode_112]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_113]
+reward = 87020.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_114]
+reward = 87340.0
+planted = 10
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_115]
+reward = 87215.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0166)"
+final_phase = "planting"
+
+[episodes.episode_116]
+reward = 87020.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_117]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_118]
+reward = 87095.0
+planted = 3
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_119]
+reward = 87820.0
+planted = 10
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_120]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_121]
+reward = 87410.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_122]
+reward = 87020.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_123]
+reward = 86982.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_124]
+reward = 87165.0
+planted = 5
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_125]
+reward = 87545.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_126]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_127]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_128]
+reward = 86928.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_129]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_130]
+reward = 87130.0
+planted = 4
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_131]
+reward = 87490.0
+planted = 1
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_132]
+reward = 87605.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_133]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_134]
+reward = 87020.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_135]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_136]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_137]
+reward = 86968.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_138]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_139]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_140]
+reward = 87020.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_141]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_142]
+reward = 86938.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_143]
+reward = 87020.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_144]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_145]
+reward = 87200.0
+planted = 6
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_146]
+reward = 88420.0
+planted = 16
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_147]
+reward = 87590.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_148]
+reward = 86874.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_149]
+reward = 87020.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_150]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0166)"
+final_phase = "planting"
+
+[episodes.episode_151]
+reward = 87270.0
+planted = 8
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0166)"
+final_phase = "planting"
+
+[episodes.episode_152]
+reward = 87335.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_153]
+reward = 86838.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_154]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_155]
+reward = 87370.0
+planted = 10
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_156]
+reward = 87050.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_157]
+reward = 86982.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_158]
+reward = 87020.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_159]
+reward = 87025.0
+planted = 1
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_160]
+reward = 87760.0
+planted = 10
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_161]
+reward = 87020.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0166)"
+final_phase = "planting"
+
+[episodes.episode_162]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0166)"
+final_phase = "planting"
+
+[episodes.episode_163]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0166)"
+final_phase = "planting"
+
+[episodes.episode_164]
+reward = 87020.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0166)"
+final_phase = "planting"
+
+[episodes.episode_165]
+reward = 86854.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0166)"
+final_phase = "planting"
+
+[episodes.episode_166]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0166)"
+final_phase = "planting"
+
+[episodes.episode_167]
+reward = 87020.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0166)"
+final_phase = "planting"
+
+[episodes.episode_168]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0166)"
+final_phase = "planting"
+
+[episodes.episode_169]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0166)"
+final_phase = "planting"
+
+[episodes.episode_170]
+reward = 86948.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0166)"
+final_phase = "planting"
+
+[episodes.episode_171]
+reward = 86914.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0166)"
+final_phase = "planting"
+
+[episodes.episode_172]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0166)"
+final_phase = "planting"
+
+[episodes.episode_173]
+reward = 87020.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0166)"
+final_phase = "planting"
+
+[episodes.episode_174]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0166)"
+final_phase = "planting"
+
+[episodes.episode_175]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0166)"
+final_phase = "planting"
+
+[episodes.episode_176]
+reward = 87020.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0166)"
+final_phase = "planting"
+
+[episodes.episode_177]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0166)"
+final_phase = "planting"
+
+[episodes.episode_178]
+reward = 86878.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0166)"
+final_phase = "planting"
+
+[episodes.episode_179]
+reward = 87020.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0166)"
+final_phase = "planting"
+
+[episodes.episode_180]
+reward = 86942.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0166)"
+final_phase = "planting"
+
+[episodes.episode_181]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0166)"
+final_phase = "planting"
+
+[episodes.episode_182]
+reward = 87020.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0166)"
+final_phase = "planting"
+
+[episodes.episode_183]
+reward = 86962.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0166)"
+final_phase = "planting"
+
+[episodes.episode_184]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0166)"
+final_phase = "planting"
+
+[episodes.episode_185]
+reward = 87020.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0166)"
+final_phase = "planting"
+
+[episodes.episode_186]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0166)"
+final_phase = "planting"
+
+[episodes.episode_187]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0166)"
+final_phase = "planting"
+
+[episodes.episode_188]
+reward = 87020.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0166)"
+final_phase = "planting"
+
+[episodes.episode_189]
+reward = 86842.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0166)"
+final_phase = "planting"
+
+[episodes.episode_190]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0166)"
+final_phase = "planting"
+
+[episodes.episode_191]
+reward = 87050.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0166)"
+final_phase = "planting"
+
+[episodes.episode_192]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0166)"
+final_phase = "planting"
+
+[episodes.episode_193]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0166)"
+final_phase = "planting"
+
+[episodes.episode_194]
+reward = 87020.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0166)"
+final_phase = "planting"
+
+[episodes.episode_195]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0166)"
+final_phase = "planting"
+
+[episodes.episode_196]
+reward = 86930.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0166)"
+final_phase = "planting"
+
+[episodes.episode_197]
+reward = 87020.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0166)"
+final_phase = "planting"
+
+[episodes.episode_198]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0166)"
+final_phase = "planting"
+
+[episodes.episode_199]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0166)"
+final_phase = "planting"
+
+[episodes.episode_200]
+reward = 87020.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0166)"
+final_phase = "planting"
+
+[episodes.episode_201]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0166)"
+final_phase = "planting"
+
+[episodes.episode_202]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0166)"
+final_phase = "planting"
+
+[episodes.episode_203]
+reward = 87020.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0166)"
+final_phase = "planting"
+
+[episodes.episode_204]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0166)"
+final_phase = "planting"
+
+[episodes.episode_205]
+reward = 86974.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0166)"
+final_phase = "planting"
+
+[episodes.episode_206]
+reward = 86976.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0166)"
+final_phase = "planting"
+
+[episodes.episode_207]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0166)"
+final_phase = "planting"
+
+[episodes.episode_208]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0166)"
+final_phase = "planting"
+
+[episodes.episode_209]
+reward = 87020.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0166)"
+final_phase = "planting"
+
+[episodes.episode_210]
+reward = 87130.0
+planted = 4
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0166)"
+final_phase = "planting"
+
+[episodes.episode_211]
+reward = 87970.0
+planted = 7
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0166)"
+final_phase = "planting"
+
+[episodes.episode_212]
+reward = 87345.0
+planted = 5
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0166)"
+final_phase = "planting"
+
+[episodes.episode_213]
+reward = 87230.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0166)"
+final_phase = "planting"
+
+[episodes.episode_214]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0166)"
+final_phase = "planting"
+
+[episodes.episode_215]
+reward = 86988.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0166)"
+final_phase = "planting"
+
+[episodes.episode_216]
+reward = 86938.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0166)"
+final_phase = "planting"
+
+[episodes.episode_217]
+reward = 86830.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0166)"
+final_phase = "planting"
+
+[episodes.episode_218]
+reward = 87020.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0166)"
+final_phase = "planting"
+
+[episodes.episode_219]
+reward = 86950.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0166)"
+final_phase = "planting"
+
+[episodes.episode_220]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0166)"
+final_phase = "planting"
+
+[episodes.episode_221]
+reward = 87020.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0166)"
+final_phase = "planting"
+
+[episodes.episode_222]
+reward = 86970.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0166)"
+final_phase = "planting"
+
+[episodes.episode_223]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0166)"
+final_phase = "planting"
+
+[episodes.episode_224]
+reward = 87020.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0166)"
+final_phase = "planting"
+
+[episodes.episode_225]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0166)"
+final_phase = "planting"
+
+[episodes.episode_226]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0166)"
+final_phase = "planting"
+
+[episodes.episode_227]
+reward = 87020.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0166)"
+final_phase = "planting"
+
+[episodes.episode_228]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0166)"
+final_phase = "planting"
+
+[episodes.episode_229]
+reward = 86938.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0166)"
+final_phase = "planting"
+
+[episodes.episode_230]
+reward = 87020.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0166)"
+final_phase = "planting"
+
+[episodes.episode_231]
+reward = 86970.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0166)"
+final_phase = "planting"
+
+[episodes.episode_232]
+reward = 86978.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0166)"
+final_phase = "planting"
+
+[episodes.episode_233]
+reward = 87020.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0166)"
+final_phase = "planting"
+
+[episodes.episode_234]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0166)"
+final_phase = "planting"
+
+[episodes.episode_235]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0166)"
+final_phase = "planting"
+
+[episodes.episode_236]
+reward = 87020.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0166)"
+final_phase = "planting"
+
+[episodes.episode_237]
+reward = 86682.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0166)"
+final_phase = "planting"
+
+[episodes.episode_238]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0166)"
+final_phase = "planting"
+
+[episodes.episode_239]
+reward = 86948.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0166)"
+final_phase = "planting"
+
+[episodes.episode_240]
+reward = 90190.0
+planted = 16
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0166)"
+final_phase = "planting"
+
+[episodes.episode_241]
+reward = 88040.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0166)"
+final_phase = "planting"
+
+[episodes.episode_242]
+reward = 87020.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0166)"
+final_phase = "planting"
+
+[episodes.episode_243]
+reward = 86986.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0166)"
+final_phase = "planting"
+
+[episodes.episode_244]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0166)"
+final_phase = "planting"
+
+[episodes.episode_245]
+reward = 86872.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0166)"
+final_phase = "planting"
+
+[episodes.episode_246]
+reward = 87060.0
+planted = 2
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0166)"
+final_phase = "planting"
+
+[episodes.episode_247]
+reward = 87550.0
+planted = 1
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0166)"
+final_phase = "planting"
+
+[episodes.episode_248]
+reward = 87230.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0166)"
+final_phase = "planting"
+
+[episodes.episode_249]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0166)"
+final_phase = "planting"
+
+[episodes.episode_250]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0166)"
+final_phase = "planting"
+
+[episodes.episode_251]
+reward = 87090.0
+planted = 2
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0166)"
+final_phase = "planting"
+
+[episodes.episode_252]
+reward = 91195.0
+planted = 10
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0166)"
+final_phase = "planting"
+
+[episodes.episode_253]
+reward = 86770.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0166)"
+final_phase = "planting"
+
+[episodes.episode_254]
+reward = 87020.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0166)"
+final_phase = "planting"
+
+[episodes.episode_255]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0166)"
+final_phase = "planting"
+
+[episodes.episode_256]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0166)"
+final_phase = "planting"
+
+[episodes.episode_257]
+reward = 86956.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0166)"
+final_phase = "planting"
+
+[episodes.episode_258]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0166)"
+final_phase = "planting"
+
+[episodes.episode_259]
+reward = 86946.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0166)"
+final_phase = "planting"
+
+[episodes.episode_260]
+reward = 87020.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0166)"
+final_phase = "planting"
+
+[episodes.episode_261]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0166)"
+final_phase = "planting"
+
+[episodes.episode_262]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0166)"
+final_phase = "planting"
+
+[episodes.episode_263]
+reward = 87020.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0166)"
+final_phase = "planting"
+
+[episodes.episode_264]
+reward = 87050.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0166)"
+final_phase = "planting"
+
+[episodes.episode_265]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0166)"
+final_phase = "planting"
+
+[episodes.episode_266]
+reward = 87020.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0166)"
+final_phase = "planting"
+
+[episodes.episode_267]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_268]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0166)"
+final_phase = "planting"
+
+[episodes.episode_269]
+reward = 87020.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0166)"
+final_phase = "planting"
+
+[episodes.episode_270]
+reward = 86946.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0166)"
+final_phase = "planting"
+
+[episodes.episode_271]
+reward = 86786.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0166)"
+final_phase = "planting"
+
+[episodes.episode_272]
+reward = 87020.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0166)"
+final_phase = "planting"
+
+[episodes.episode_273]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0166)"
+final_phase = "planting"
+
+[episodes.episode_274]
+reward = 89305.0
+planted = 10
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0166)"
+final_phase = "planting"
+
+[episodes.episode_275]
+reward = 87020.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0166)"
+final_phase = "planting"
+
+[episodes.episode_276]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0166)"
+final_phase = "planting"
+
+[episodes.episode_277]
+reward = 86974.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0166)"
+final_phase = "planting"
+
+[episodes.episode_278]
+reward = 86928.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0166)"
+final_phase = "planting"
+
+[episodes.episode_279]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0166)"
+final_phase = "planting"
+
+[episodes.episode_280]
+reward = 86950.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0166)"
+final_phase = "planting"
+
+[episodes.episode_281]
+reward = 87020.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0166)"
+final_phase = "planting"
+
+[episodes.episode_282]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0166)"
+final_phase = "planting"
+
+[episodes.episode_283]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0166)"
+final_phase = "planting"
+
+[episodes.episode_284]
+reward = 87020.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_285]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_286]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_287]
+reward = 87230.0
+planted = 6
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_288]
+reward = 87385.0
+planted = 7
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_289]
+reward = 87365.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_290]
+reward = 87020.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_291]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_292]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0166)"
+final_phase = "planting"
+
+[episodes.episode_293]
+reward = 87020.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0166)"
+final_phase = "planting"
+
+[episodes.episode_294]
+reward = 86902.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0166)"
+final_phase = "planting"
+
+[episodes.episode_295]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_296]
+reward = 87020.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0166)"
+final_phase = "planting"
+
+[episodes.episode_297]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_298]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_299]
+reward = 87012.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_300]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_301]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_302]
+reward = 87020.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_303]
+reward = 87350.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_304]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_305]
+reward = 87020.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_306]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_307]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_308]
+reward = 87020.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_309]
+reward = 86846.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_310]
+reward = 86914.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_311]
+reward = 86896.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_312]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_313]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_314]
+reward = 89100.0
+planted = 20
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_315]
+reward = 86978.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_316]
+reward = 86886.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_317]
+reward = 87020.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_318]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_319]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_320]
+reward = 87020.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_321]
+reward = 86982.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_322]
+reward = 86982.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_323]
+reward = 87055.0
+planted = 1
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_324]
+reward = 90320.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_325]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_326]
+reward = 87090.0
+planted = 2
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_327]
+reward = 87110.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_328]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_329]
+reward = 86824.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_330]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_331]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_332]
+reward = 87020.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_333]
+reward = 86690.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_334]
+reward = 87940.0
+planted = 10
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_335]
+reward = 86880.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_336]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_337]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_338]
+reward = 86764.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_339]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_340]
+reward = 86946.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_341]
+reward = 86908.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_342]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_343]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_344]
+reward = 86976.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_345]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_346]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_347]
+reward = 87020.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_348]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_349]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_350]
+reward = 86828.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_351]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_352]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_353]
+reward = 87012.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_354]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_355]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_356]
+reward = 87300.0
+planted = 8
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_357]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_358]
+reward = 87535.0
+planted = 7
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_359]
+reward = 87035.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_360]
+reward = 86942.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_361]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_362]
+reward = 87012.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_363]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_364]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_365]
+reward = 86908.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_366]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_367]
+reward = 86958.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_368]
+reward = 87160.0
+planted = 4
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_369]
+reward = 87380.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_370]
+reward = 86838.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_371]
+reward = 87020.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_372]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_373]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_374]
+reward = 87020.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_375]
+reward = 88030.0
+planted = 10
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_376]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_377]
+reward = 87020.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_378]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_379]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_380]
+reward = 87020.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_381]
+reward = 86722.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_382]
+reward = 86966.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_383]
+reward = 87020.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_384]
+reward = 86886.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_385]
+reward = 86910.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_386]
+reward = 87020.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_387]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_388]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_389]
+reward = 87020.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_390]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_391]
+reward = 86770.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_392]
+reward = 87020.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_393]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_394]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_395]
+reward = 87020.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_396]
+reward = 86918.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_397]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_398]
+reward = 86796.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_399]
+reward = 86802.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_400]
+reward = 87235.0
+planted = 7
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_401]
+reward = 87020.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_402]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_403]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_404]
+reward = 87485.0
+planted = 6
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_405]
+reward = 87295.0
+planted = 1
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_406]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_407]
+reward = 87940.0
+planted = 4
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_408]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_409]
+reward = 87410.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_410]
+reward = 86972.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_411]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_412]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_413]
+reward = 87020.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_414]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_415]
+reward = 87270.0
+planted = 8
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_416]
+reward = 87055.0
+planted = 1
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_417]
+reward = 88220.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_418]
+reward = 87190.0
+planted = 1
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_419]
+reward = 90230.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_420]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_421]
+reward = 87245.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_422]
+reward = 87020.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_423]
+reward = 87165.0
+planted = 5
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_424]
+reward = 87810.0
+planted = 2
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_425]
+reward = 87035.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_426]
+reward = 86754.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_427]
+reward = 86898.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_428]
+reward = 87020.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_429]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_430]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_431]
+reward = 87020.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_432]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_433]
+reward = 86930.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_434]
+reward = 87020.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_435]
+reward = 86854.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_436]
+reward = 86982.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_437]
+reward = 87020.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_438]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_439]
+reward = 86954.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_440]
+reward = 87020.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_441]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_442]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_443]
+reward = 86816.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_444]
+reward = 86870.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"
+
+[episodes.episode_445]
+reward = 86990.0
+planted = 0
+irrigated = 0
+harvested = 0
+epsilon = "np.float64(0.05)"
+exploration_ratio = "np.float64(0.0167)"
+final_phase = "planting"

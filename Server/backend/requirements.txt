@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+uvicorn[standard]
+pydantic
+numpy
+scipy
+toml
+python-multipart
+aiofiles
