@@ -1,0 +1,3 @@
+body { margin:0; font-family: Inter, system-ui, sans-serif; background:#071024; color:#fff; }
+input { width:100%; }
+button { background:#1f6feb; color:#fff; border:none; padding:8px 10px; border-radius:6px; cursor:pointer; }

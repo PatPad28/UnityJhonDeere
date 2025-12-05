@@ -1,5 +1,0 @@
-﻿<Solution>
-  <Project Path="Assembly-CSharp.csproj" />
-  <Project Path="endel.nativewebsocket.csproj" />
-  <Project Path="Assembly-CSharp-Editor.csproj" />
-</Solution>

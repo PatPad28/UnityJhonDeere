@@ -18,4 +18,12 @@
 *.mdb
 *.opendb
 *.VC.db
+*.vscode/
 *.vs/
+*.vsconfig
+__pycache__/
+/Server/frontend/node_modules
+/Server/frontend/package-lock.json
+/Server/frontend/vite.config.js
+*.slnx
+*.sln
